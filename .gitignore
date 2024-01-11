@@ -1,1 +1,6 @@
-node_modules
+### HTML ###
+**/dist/
+
+### Node Package Modules ###
+**/node_modules/
+**/assets/
