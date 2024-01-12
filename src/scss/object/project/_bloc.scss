@@ -1,9 +1,15 @@
 .p-bloc{
 
     background-color: #0a0d13;
+    width: 100%;
+    margin: 0 auto;
 
     &--about{
-        //mr kg
+
+        .about-wrap{
+            display: flex;
+        }
+        
     }
 
     &--disc{
