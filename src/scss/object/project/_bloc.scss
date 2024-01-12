@@ -1,28 +1,65 @@
-.p-bloc{
+.p-bloc {
 
     background-color: #0a0d13;
+    width: 1440px;
+    margin: 0 auto;
 
-    &--about{
+    &--about {
         //mr kg
     }
 
-    &--disc{
+    &--disc {
         //mr kg
     }
 
-    &--latest{
+    &--latest {
+
+        .latest-wrap {
+            display: flex;
+            margin: 0 auto;
+
+            &__bloc {
+                position: relative;
+
+                .img-box {
+                    width: 360px;
+                    height: 363px;
+                    position: relative;
+                }
+
+                .txt-box {
+                    width: 280px;
+                    // height: 75px;
+                    position: absolute;
+                    display: block;
+
+                    p {
+
+                        font-family: $font-muli, 400;
+                        color: $colorwhite;
+                        font-size: 18px;
+                        line-height: 28px;
+                        text-align: left;
+                        letter-spacing: 0.56px;
+                        bottom: 0;
+
+                    }
+                }
+            }
+        }
+
         //ei ei
     }
 
-    &--travel{
+    &--travel {
         //ei ei
     }
 
-    &--gallery{
+    &--gallery {
         // ehmue
     }
 
-    &--contact{
+    &--contact {
         // ei ei
     }
 }
