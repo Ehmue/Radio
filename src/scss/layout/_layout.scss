@@ -3,6 +3,56 @@
     margin: 0 auto;
 
     &--full{
+        max-width: 1440px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 1500px) {
+    .l-wrap-inner{
         width: 1440px;
+
+        &--full{
+            width: 100%;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .l-wrap-inner{
+        width: 840px;
+
+        &--full{
+            width: 100%;
+        }
+    }
+
+}
+@media screen and (max-width: 900px) {
+    .l-wrap-inner{
+        width: 780px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .l-wrap-inner{
+        width: 580px;
+
+        &__full{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .l-wrap-inner{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .l-wrap-inner{
+        width: 320px;
     }
 }
