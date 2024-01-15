@@ -1,12 +1,13 @@
 .p-bloc{
 
     &--disc {
-
+            margin-bottom: 130px;   
 
         .disc-wrap {
             display: flex;
             justify-content: center;
             gap: 20px 20px;
+
 
 
             .disc-bloc {
@@ -52,6 +53,7 @@
                             font-family: $font-muli;
                             font-size: 16px;
                             line-height: 26px;
+                            margin-bottom: 30px;
                         }
 
 
