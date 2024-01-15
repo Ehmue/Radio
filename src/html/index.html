@@ -4,47 +4,56 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>APS 2023 Frontend Webpack</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Raido</title>
   <meta name="keywords" content=" ">
   <meta name="description" content=" ">
-
 </head>
 
 <body>
   <header class="l-header">
     <div class="l-wrap-inner">
-      <div class="l-header__logo">
-        <h1><a href="#" target="_self"></a></h1>
+      <div class="l-header__inner">
+        <div class="l-header__logo">
+          <h1><a href="#" target="_self">Raido.</a></h1>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+          <i class='bx bx-menu icons__menu'></i>
+          <i class='bx bx-x icons__close'></i>
+        </label>
+        <nav class="l-header__menu">
+          <ul>
+            <li><a href="#" target="_self">Home</a></li>
+            <li><a href="#" target="_self">About Us</a></li>
+            <li><a href="#" target="_self">Discover</a></li>
+            <li><a href="#" target="_self">Blog</a></li>
+            <li><a href="#" target="_self">Journals</a></li>
+            <li><a href="#" target="_self">Gallery</a></li>
+            <li><a href="#" target="_self">Contact</a></li>
+            <li><a href="#" target="_self"><img src="../img/search.png" alt="search"></a></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="l-header__menu">
-        <ul>
-          <li><a href="#" target="_self"></a></li>
-          <li><a href="#" target="_self"></a></li>
-          <li><a href="#" target="_self"></a></li>
-          <li><a href="#" target="_self"></a></li>
-          <li><a href="#" target="_self"></a></li>
-          <li><a href="#" target="_self"></a></li>
-          <li><a href="#" target="_self"></a></li>
-          <li><a href="#" target="_self"></a></li>
-        </ul>
-      </nav>
     </div>
   </header>
 
-  <!--mainvisual-->
+  <!-- mainvisual -->
   <div class="mainvisual">
-    <div class="mainvisual__bloc">
-      <h2></h2>
-      <p></p>
-      <div class="c-btn c-btn--explore">
-        <a href="#" target="_self"></a>
+    <div class="l-wrap-inner">
+      <div class="mainvisual__bloc">
+        <h2>The new way to plan your next adventure</h2>
+        <p>Explore the colourful world</p>
+        <div class="c-btn c-btn--explore">
+          <a href="#" target="_self">Explore More</a>
+        </div>
       </div>
     </div>
   </div>
 
   <main>
     <!-- About us-->
-    <section class="p-bloc p-bloc--about">
+    <!-- <section class="p-bloc p-bloc--about">
       <div class="l-wrap-inner l-wrap-inner--full">
         <div class="about-wrap">
           <div class="about-wrap__txt-box">
@@ -52,7 +61,6 @@
               <h3></h3>
               <p></p>
               <div class="about-bloc__detail">
-                <!--blank-->
                 <ul>
                   <li>
                     <p></p>
@@ -60,17 +68,17 @@
                 </ul>
               </div>
               <div class="c-btn c-btn--read">
-                <a href=""></a>
+                <a href="" target="_self">Read More</a>
               </div>
             </div>
           </div>
           <div class="about-wrap__img-box"></div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Discover -->
-    <section class="p-bloc p-bloc--disc">
+    <!-- <section class="p-bloc p-bloc--disc">
       <div class="l-wrap-inner">
         <div class="c-title">
           <h3>Discover the most engaging places</h3>
@@ -109,10 +117,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Latest -->
-    <section class="p-bloc p-bloc--latest">
+    <!-- <section class="p-bloc p-bloc--latest">
       <div class="l-wrap-inner l-wrap-inner--full">
         <div class="c-title">
           <h3>Discover the most engaging places</h3>
@@ -145,7 +153,8 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
 
     <!-- travel -->
     <section class="p-bloc p-bloc--travel">
@@ -248,34 +257,51 @@
     <!-- gallery -->
     <section class="p-bloc p-bloc--gallery">
       <div class=" l-wrap-inner l-wrap-inner--full">
-        <div class="galerry-logo">
-          <img src="" alt="">
+        <div class="gallery-logo">
+          <img src="../img/raido.png" alt="Raido-Photo">
         </div>
         <div class="gallery-photo">
-          <div class="c-title">
-            <h3>Gallery Photos</h3>
-            <p>Lets's see the world with us with you and your family.</p>
-          </div>
-          <div class="photo-wrap">
-            <div class="photo-bloc">
-              <div class="photo-bloc__img-box"><img src="" alt=""></div>
-              <div class="photo-bloc__txt-box"></div>
+          <div class=" l-wrap-inner l-wrap-inner--full">
+            <div class="c-title">
+              <h3>Gallery Photos</h3>
+              <p>Lets's see the world with us with you and your family.</p>
             </div>
-            <div class="photo-bloc">
-              <div class="photo-bloc__img-box"><img src="" alt=""></div>
-              <div class="photo-bloc__txt-box"></div>
-            </div>
-            <div class="photo-bloc">
-              <div class="photo-bloc__img-box"><img src="" alt=""></div>
-              <div class="photo-bloc__txt-box"></div>
-            </div>
-            <div class="photo-bloc">
-              <div class="photo-bloc__img-box"><img src="" alt=""></div>
-              <div class="photo-bloc__txt-box"></div>
-            </div>
-            <div class="photo-bloc">
-              <div class="photo-bloc__img-box"><img src="" alt=""></div>
-              <div class="photo-bloc__txt-box"></div>
+            <div class="photo-wrap">
+              <div class="photo-bloc">
+                <div class="photo-bloc__img-box"><img src="../img/radio1.png" alt=""></div>
+                <div class="photo-bloc__txt-box">
+                  <h4>Bali</h4>
+                  <p>Indonesia</p>
+                </div>
+              </div>
+              <div class="photo-bloc">
+                <div class="photo-bloc__img-box"><img src="../img/radio2.png" alt=""></div>
+                <div class="photo-bloc__txt-box">
+                  <h4>Bali</h4>
+                  <p>Indonesia</p>
+                </div>
+              </div>
+              <div class="photo-bloc">
+                <div class="photo-bloc__img-box"><img src="../img/radio.png" alt=""></div>
+                <div class="photo-bloc__txt-box">
+                  <h4>Bali</h4>
+                  <p>Indonesia</p>
+                </div>
+              </div>
+              <div class="photo-bloc">
+                <div class="photo-bloc__img-box"><img src="../img/radio3.png" alt=""></div>
+                <div class="photo-bloc__txt-box">
+                  <h4>Bali</h4>
+                  <p>Indonesia</p>
+                </div>
+              </div>
+              <div class="photo-bloc">
+                <div class="photo-bloc__img-box"><img src="../img/radio4.png" alt=""></div>
+                <div class="photo-bloc__txt-box">
+                  <h4>Bali</h4>
+                  <p>Indonesia</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -283,7 +309,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="p-bloc p-bloc--contact">
+    <!-- <section class="p-bloc p-bloc--contact">
       <div class="l-wrap-inner">
         <div class="contact-wrap">
           <div class="contact-wrap__txt-box">
@@ -304,7 +330,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
   </main>
 
@@ -312,28 +338,27 @@
     <div class="l-wrap-inner">
       <div class="l-footer__bloc">
         <h5>Raido.</h5>
-        <div class="footer-icon">
-          <div class="icon-wrap">
-            <div class="icon-img"><img src="" alt=""></div>
-            <div class="icon-img"><img src="" alt=""></div>
-            <div class="icon-img"><img src="" alt=""></div>
-            <div class="icon-img"><img src="" alt=""></div>
-          </div>
-          <p>Cheap Romantic Vacations. Many people feel that there is a limited amount of abundance, wealth, or chances
-            to succeed in life.</p>
-          <nav class="l-footer__menu">
-            <ul>
-              <li><a href="#" target="_self"></a></li>
-              <li><a href="#" target="_self"></a></li>
-              <li><a href="#" target="_self"></a></li>
-              <li><a href="#" target="_self"></a></li>
-              <li><a href="#" target="_self"></a></li>
-              <li><a href="#" target="_self"></a></li>
-              <li><a href="#" target="_self"></a></li>
-            </ul>
-          </nav>
+        <div class="icon-wrap">
+          <div class="icon-img"><img src="../img/facebook.png" alt="facebook-icon"></div>
+          <div class="icon-img"><img src="../img/instagram.png" alt="ig-icon"></div>
+          <div class="icon-img"><img src="../img/twitter.png" alt="twiter-icon"></div>
+          <div class="icon-img"><img src="../img/linkedin.png" alt="linkedin-icon"></div>
         </div>
+        <p>Cheap Romantic Vacations. Many people feel that there is a limited amount of abundance, wealth, or chances to
+          succeed in life.</p>
+        <nav class="l-footer__menu">
+          <ul>
+            <li><a href="#" target="_self">Home</a></li>
+            <li><a href="#" target="_self">About</a></li>
+            <li><a href="#" target="_self">Discover</a></li>
+            <li><a href="#" target="_self">Blog</a></li>
+            <li><a href="#" target="_self">Journals</a></li>
+            <li><a href="#" target="_self">Gallery</a></li>
+            <li><a href="#" target="_self">Contact</a></li>
+          </ul>
+        </nav>
       </div>
+      <address class="l-footer__addr">&copy 2022 All Right Reserved</address>
     </div>
   </footer>
 </body>
