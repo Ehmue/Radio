@@ -1,13 +1,11 @@
 .p-bloc{
-
     &--latest {
-
-
         .latest-wrap {
             display: flex;
             margin: 0 auto;
             padding-bottom: 200px;
             flex-wrap: wrap;
+            justify-content: center;
 
             &__bloc {
                 position: relative;
@@ -15,9 +13,6 @@
                     width: 360px;
                     height: 363px;
                     position: relative;
-                    // @media screen and (max-width: 600px) {
-                    //     width: 300px;
-                    // }
                 }
 
                 .txt-box {
@@ -35,12 +30,38 @@
                         font-size: 18px;
                         line-height: 28px;
                         letter-spacing: 0.56px;
-                        @media screen and (max-width: 600px){
-                            color: red;
-                        }
                     }
                 }
             }
         }             
     }
+    @media screen and (max-width: 1200px) {
+        .p-bloc{
+            &--latest{
+                .latest-wrap{
+                    &__bloc{
+                        .img-box{
+                            width: 240px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
 }
+@media screen and (max-width: 800px) {
+    .p-bloc{
+        &--latest{
+            .latest-wrap{
+                &__bloc{
+                    .img-box{
+                        width: 240px; 
+                    }
+                }
+            }
+        }
+    }    
+}
+
+
