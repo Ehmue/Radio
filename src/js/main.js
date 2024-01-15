@@ -12,7 +12,7 @@ $('.photo-wrap').slick({
     autoplaySpeed: 5400,
     speed: 300,
     touchThreshold: 8,
-    infinite: false,
+    infinite: true,
     center: true,
     // variableWidth: true,
     slidesToShow: 5,

@@ -59,7 +59,7 @@
                 .photo-bloc{
                     position: relative;
                     width: 264px;
-                    height: 400px;
+                    //height: 400px;
                     text-align: center;
                     display: flex;
                     justify-content: center;
@@ -70,6 +70,7 @@
                     &__img{
                         width: 264px;
                         height: 400px;
+                        margin: 10px;
                     }
                     &__txt-box{
                         width: 100%;
@@ -106,9 +107,7 @@
         
     }
 
-    // &--contact {
-    //     // ei ei
-    // }
+    &--contact {
+        // ei ei
+    }
 }
-
-.slick-initialized .slick-slide { margin: 0 20px;}
