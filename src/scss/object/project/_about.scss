@@ -82,6 +82,28 @@
                                     line-height: 28px;
                                 }
                             }
+                            li:nth-child(2)::before{
+                                content: "";
+                                width: 1px;
+                                height: 40px;
+                                position: absolute;
+                                background-color: $colorwhite;
+                                opacity: 0.6;
+                                top: 63%;
+                                left: 35%;
+                                transform: translate(-35%, -63%);
+                            }
+                            li:nth-child(2)::after{
+                                content: "";
+                                width: 1px;
+                                height: 40px;
+                                position: absolute;
+                                background-color: $colorwhite;
+                                opacity: 0.6;
+                                top: 63%;
+                                right: 28%;
+                                transform: translate(-28%, -63%);
+                            }
                         }
                     }
 
