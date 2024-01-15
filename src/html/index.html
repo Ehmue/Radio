@@ -1,368 +1,393 @@
-<!DOCTYPE html>
+f<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>APS 2023 Frontend Webpack</title>
-    <meta name="keywords" content=" ">
-    <meta name="description" content=" ">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Raido</title>
+  <meta name="keywords" content=" ">
+  <meta name="description" content=" ">
 </head>
 
 <body>
-    <header class="l-header">
-        <div class="l-wrap-inner">
-            <div class="l-header__logo">
-                <h1><a href="#" target="_self"></a></h1>
-            </div>
-            <nav class="l-header__menu">
-                <ul>
-                    <li><a href="#" target="_self"></a></li>
-                    <li><a href="#" target="_self"></a></li>
-                    <li><a href="#" target="_self"></a></li>
-                    <li><a href="#" target="_self"></a></li>
-                    <li><a href="#" target="_self"></a></li>
-                    <li><a href="#" target="_self"></a></li>
-                    <li><a href="#" target="_self"></a></li>
-                    <li><a href="#" target="_self"></a></li>
-                </ul>
-            </nav>
+  <header class="l-header">
+    <div class="l-wrap-inner">
+      <div class="l-header__inner">
+        <div class="l-header__logo">
+          <h1><a href="#" target="_self">Raido.</a></h1>
         </div>
-    </header>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+          <i class='bx bx-menu icons__menu'></i>
+          <i class='bx bx-x icons__close'></i>
+        </label>
+        <nav class="l-header__menu">
+          <ul>
+            <li><a href="#" target="_self">Home</a></li>
+            <li><a href="#" target="_self">About Us</a></li>
+            <li><a href="#" target="_self">Discover</a></li>
+            <li><a href="#" target="_self">Blog</a></li>
+            <li><a href="#" target="_self">Journals</a></li>
+            <li><a href="#" target="_self">Gallery</a></li>
+            <li><a href="#" target="_self">Contact</a></li>
+            <li><a href="#" target="_self"><img src="../img/search.png" alt="search"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-    <!--mainvisual-->
-    <div class="mainvisual">
-        <div class="mainvisual__bloc">
-            <h2></h2>
-            <p></p>
-            <div class="c-btn c-btn--explore">
-                <a href="#" target="_self"></a>
-            </div>
+  <!-- mainvisual -->
+  <div class="mainvisual">
+    <div class="l-wrap-inner">
+      <div class="mainvisual__bloc">
+        <h2>The new way to plan your next adventure</h2>
+        <p>Explore the colourful world</p>
+        <div class="c-btn c-btn--explore">
+          <a href="#" target="_self">Explore More</a>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+     <!-- About us-->
+     <section class="p-bloc p-bloc--about">
+      <div class="l-wrap-inner l-wrap-inner--full">
+          <div class="about-wrap">
+              <div class="about-wrap__img"></div>
+              <div class="about-wrap__img-box"><img src="../img/about.png" alt="about-photo"></div>
+              <div class="about-wrap__txt-box">
+                  <div class="about-bloc">
+                      <h3>About Us</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                          ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                          nisi ut aliquip
+                          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                          cillum dolore eu
+                          fugiat nulla pariatur.</p>
+                      <div class="about-bloc__detail">
+                          <div>
+                              <ul>
+                                  <li>
+                                      <p>268</p>
+                                      <span>Completed Trips</span>
+                                  </li>
+                                  <li>
+                                      <p>176</p>
+                                      <span>Tour Guides</span>
+                                  </li>
+                                  <li>
+                                      <p>153</p>
+                                      <span>Destinations</span>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="c-btn c-btn--about"><a href="#" target="_self">Discover More</a></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Discover -->
+  <section class="p-bloc p-bloc--disc">
+      <div class="l-wrap-inner">
+          <div class="c-title">
+              <h3>Discover the most engaging places</h3>
+              <p>Lets's see the world with us with you and your family.</p>
+          </div>
+          <div class="disc-wrap">
+              <div class="disc-bloc">
+                  <div class="disc-bloc__txt-box">
+                      <div class="img-box"><img src="../img/discover1.png" alt="photo"></div>
+                      <div class="txt">
+                          <h4>Norway</h4>
+                          <p>Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal
+                              fjords.</p>
+                              <div class="c-btn c-btn--disc"><a href="#" target="_self">Discover More</a></div>
+                      </div>
+                      
+                  </div>
+                 
+              </div>
+              <div class="disc-bloc">
+                  <div class="disc-bloc__txt-box">
+                      <div class="img-box"><img src="../img/discover2.png" alt="photo"></div>
+                      <div class="txt">
+                          <h4>London</h4>
+                          <p>London, the capital of England and the United Kingdom, is a 21st-century city with
+                              history stretching
+                              back to Roman times.</p>
+                              <div class="c-btn c-btn--disc"><a href="#" target="_self">Discover More</a></div>
+                      </div>
+                     
+                  </div>
+              
+              </div>
+              <div class="disc-bloc">
+                  <div class="disc-bloc__txt-box">
+                      <div class="img-box"><img src="../img/discover3.png" alt="photo"></div>
+                      <div class="txt">
+                          <h4>Japan</h4>
+                          <p>Japan is famous for creating the world's leading electronics and car brands, while
+                              remaining deeply
+                              connected to traditions.</p>
+
+                              <div class="c-btn c-btn--disc"><a href="#" target="_self">Discover More</a></div>   
+                      </div>
+                      
+                  </div>
+                 
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Latest-->   
+  <section class="p-bloc p-bloc--latest">
+      <div class="l-wrap-inner l-wrap-inner--full">
+          <div class="c-title">
+              <h3>Discover the most engaging places</h3>
+              <p>Lets's see the world with us with you and your family.</p>
+          </div>
+          <div class="latest-wrap">
+              <div class="latest-bloc">
+                  <div class="img-box"><img src="" alt=""></div>
+                  <div class="txt-box">
+                      <p>10 Mistakes every first time traveller will make and how to avoid them!</p>
+                  </div>
+              </div>
+              <div class="latest-bloc">
+                  <div class="img-box"><img src="" alt=""></div>
+                  <div class="txt-box">
+                      <p>10 Mistakes every first time traveller will make and how to avoid them!</p>
+                  </div>
+              </div>
+              <div class="latest-bloc">
+                  <div class="img-box"><img src="" alt=""></div>
+                  <div class="txt-box">
+                      <p>10 Mistakes every first time traveller will make and how to avoid them!</p>
+                  </div>
+              </div>
+              <div class="latest-bloc">
+                  <div class="img-box"><img src="" alt=""></div>
+                  <div class="txt-box">
+                      <p>10 Mistakes every first time traveller will make and how to avoid them!</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- travel -->
+    <section class="p-bloc p-bloc--travel">
+      <div class="l-wrap-inner">
+        <div class="c-title">
+          <h3>Discover the most engaging places</h3>
+          <p>Lets's see the world with us with you and your family.</p>
+        </div>
+        <div class="travel-wrap">
+          <div class="travel-bloc">
+            <div class="travel-bloc__img-box"><img src="" alt=""></div>
+            <div class="travel-bloc__txt-box">
+              <div class="profile">
+                <div class="profile-logo"><img src="" alt=""></div>
+                <p>By Austin Martin</p>
+              </div>
+              <p>How to use less plastic when you travel.</p>
+              <div class="date">
+                <p>18 Apr 2022</p>
+                <div class="path"><img src="" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="travel-bloc">
+            <div class="travel-bloc__img-box"><img src="" alt=""></div>
+            <div class="travel-bloc__txt-box">
+              <div class="profile">
+                <div class="profile-logo"><img src="" alt=""></div>
+                <p>By Austin Martin</p>
+              </div>
+              <p>How to use less plastic when you travel.</p>
+              <div class="date">
+                <p>18 Apr 2022</p>
+                <div class="path"><img src="" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="travel-bloc">
+            <div class="travel-bloc__img-box"><img src="" alt=""></div>
+            <div class="travel-bloc__txt-box">
+              <div class="profile">
+                <div class="profile-logo"><img src="" alt=""></div>
+                <p>By Austin Martin</p>
+              </div>
+              <p>How to use less plastic when you travel.</p>
+              <div class="date">
+                <p>18 Apr 2022</p>
+                <div class="path"><img src="" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="travel-bloc">
+            <div class="travel-bloc__img-box"><img src="" alt=""></div>
+            <div class="travel-bloc__txt-box">
+              <div class="profile">
+                <div class="profile-logo"><img src="" alt=""></div>
+                <p>By Austin Martin</p>
+              </div>
+              <p>How to use less plastic when you travel.</p>
+              <div class="date">
+                <p>18 Apr 2022</p>
+                <div class="path"><img src="" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="travel-bloc">
+            <div class="travel-bloc__img-box"><img src="" alt=""></div>
+            <div class="travel-bloc__txt-box">
+              <div class="profile">
+                <div class="profile-logo"><img src="" alt=""></div>
+                <p>By Austin Martin</p>
+              </div>
+              <p>How to use less plastic when you travel.</p>
+              <div class="date">
+                <p>18 Apr 2022</p>
+                <div class="path"><img src="" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="travel-bloc">
+            <div class="travel-bloc__img-box"><img src="" alt=""></div>
+            <div class="travel-bloc__txt-box">
+              <div class="profile">
+                <div class="profile-logo"><img src="" alt=""></div>
+                <p>By Austin Martin</p>
+              </div>
+              <p>How to use less plastic when you travel.</p>
+              <div class="date">
+                <p>18 Apr 2022</p>
+                <div class="path"><img src="" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="c-btn c-btn--view"><a href="#" target="_self">View all journal</a></div>
+
+      </div>
+    </section>
+
+    <!-- gallery -->
+    <section class="p-bloc p-bloc--gallery">
+      <div class=" l-wrap-inner l-wrap-inner--full">
+        <div class="gallery-logo">
+          <img src="../img/raido.png" alt="Raido-Photo">
+        </div>
+        <div class="gallery-photo">
+          <div class=" l-wrap-inner l-wrap-inner--full">
+            <div class="c-title">
+              <h3>Gallery Photos</h3>
+              <p>Lets's see the world with us with you and your family.</p>
+            </div>
+            <div class="photo-wrap">
+              <div class="photo-bloc">
+                <div class="photo-bloc__img-box"><img src="../img/radio1.png" alt=""></div>
+                <div class="photo-bloc__txt-box">
+                  <h4>Bali</h4>
+                  <p>Indonesia</p>
+                </div>
+              </div>
+              <div class="photo-bloc">
+                <div class="photo-bloc__img-box"><img src="../img/radio2.png" alt=""></div>
+                <div class="photo-bloc__txt-box">
+                  <h4>Bali</h4>
+                  <p>Indonesia</p>
+                </div>
+              </div>
+              <div class="photo-bloc">
+                <div class="photo-bloc__img-box"><img src="../img/radio.png" alt=""></div>
+                <div class="photo-bloc__txt-box">
+                  <h4>Bali</h4>
+                  <p>Indonesia</p>
+                </div>
+              </div>
+              <div class="photo-bloc">
+                <div class="photo-bloc__img-box"><img src="../img/radio3.png" alt=""></div>
+                <div class="photo-bloc__txt-box">
+                  <h4>Bali</h4>
+                  <p>Indonesia</p>
+                </div>
+              </div>
+              <div class="photo-bloc">
+                <div class="photo-bloc__img-box"><img src="../img/radio4.png" alt=""></div>
+                <div class="photo-bloc__txt-box">
+                  <h4>Bali</h4>
+                  <p>Indonesia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <!-- <section class="p-bloc p-bloc--contact">
+      <div class="l-wrap-inner">
+        <div class="contact-wrap">
+          <div class="contact-wrap__txt-box">
+            <h4>Contact a Travel Researcher</h4>
+            <p>We always aim to reply within 24 hours.</p>
+          </div>
+          <div class="contact-wrap__address">
+            <div class="phone">
+              <div class="phone__logo"><img src="" alt=""></div>
+              <h4>Call Us</h4>
+              <p>+91 956545463</p>
+              <span>We are online now</span>
+            </div>
+            <div class="mail">
+              <div class="mail__logo"><img src="" alt=""></div>
+              <h4>Send us an Enquiry</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  </main>
+
+  <footer class="l-footer">
+    <div class="l-wrap-inner">
+      <div class="l-footer__bloc">
+        <h5>Raido.</h5>
+        <div class="icon-wrap">
+          <div class="icon-img"><img src="../img/facebook.png" alt="facebook-icon"></div>
+          <div class="icon-img"><img src="../img/instagram.png" alt="ig-icon"></div>
+          <div class="icon-img"><img src="../img/twitter.png" alt="twiter-icon"></div>
+          <div class="icon-img"><img src="../img/linkedin.png" alt="linkedin-icon"></div>
+        </div>
+        <p>Cheap Romantic Vacations. Many people feel that there is a limited amount of abundance, wealth, or chances to
+          succeed in life.</p>
+        <nav class="l-footer__menu">
+          <ul>
+            <li><a href="#" target="_self">Home</a></li>
+            <li><a href="#" target="_self">About</a></li>
+            <li><a href="#" target="_self">Discover</a></li>
+            <li><a href="#" target="_self">Blog</a></li>
+            <li><a href="#" target="_self">Journals</a></li>
+            <li><a href="#" target="_self">Gallery</a></li>
+            <li><a href="#" target="_self">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <address class="l-footer__addr">&copy 2022 All Right Reserved</address>
     </div>
 
-    <main>
-      <!-- About us-->
-         <section class="p-bloc p-bloc--about">
-            <div class="l-wrap-inner l-wrap-inner--full">
-                <div class="about-wrap">
-                    <div class="about-wrap__img"></div>
-                    <div class="about-wrap__img-box"><img src="../img/about.png" alt="about-photo"></div>
-                    <div class="about-wrap__txt-box">
-                        <div class="about-bloc">
-                            <h3>About Us</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et
-                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                nisi ut aliquip
-                                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu
-                                fugiat nulla pariatur.</p>
-                            <div class="about-bloc__detail">
-                                <div>
-                                    <ul>
-                                        <li>
-                                            <p>268</p>
-                                            <span>Completed Trips</span>
-                                        </li>
-                                        <li>
-                                            <p>176</p>
-                                            <span>Tour Guides</span>
-                                        </li>
-                                        <li>
-                                            <p>153</p>
-                                            <span>Destinations</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="c-btn c-btn--about"><a href="#" target="_self">Discover More</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Discover -->
-        <section class="p-bloc p-bloc--disc">
-            <div class="l-wrap-inner">
-                <div class="c-title">
-                    <h3>Discover the most engaging places</h3>
-                    <p>Lets's see the world with us with you and your family.</p>
-                </div>
-                <div class="disc-wrap">
-                    <div class="disc-bloc">
-                        <div class="disc-bloc__txt-box">
-                            <div class="img-box"><img src="../img/discover1.png" alt="photo"></div>
-                            <div class="txt">
-                                <h4>Norway</h4>
-                                <p>Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal
-                                    fjords.</p>
-                                    <div class="c-btn c-btn--disc"><a href="#" target="_self">Discover More</a></div>
-                            </div>
-                            
-                        </div>
-                       
-                    </div>
-                    <div class="disc-bloc">
-                        <div class="disc-bloc__txt-box">
-                            <div class="img-box"><img src="../img/discover2.png" alt="photo"></div>
-                            <div class="txt">
-                                <h4>London</h4>
-                                <p>London, the capital of England and the United Kingdom, is a 21st-century city with
-                                    history stretching
-                                    back to Roman times.</p>
-                                    <div class="c-btn c-btn--disc"><a href="#" target="_self">Discover More</a></div>
-                            </div>
-                           
-                        </div>
-                    
-                    </div>
-                    <div class="disc-bloc">
-                        <div class="disc-bloc__txt-box">
-                            <div class="img-box"><img src="../img/discover3.png" alt="photo"></div>
-                            <div class="txt">
-                                <h4>Japan</h4>
-                                <p>Japan is famous for creating the world's leading electronics and car brands, while
-                                    remaining deeply
-                                    connected to traditions.</p>
-
-                                    <div class="c-btn c-btn--disc"><a href="#" target="_self">Discover More</a></div>   
-                            </div>
-                            
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Latest-->   
-        <section class="p-bloc p-bloc--latest">
-            <div class="l-wrap-inner l-wrap-inner--full">
-                <div class="c-title">
-                    <h3>Discover the most engaging places</h3>
-                    <p>Lets's see the world with us with you and your family.</p>
-                </div>
-                <div class="latest-wrap">
-                    <div class="latest-bloc">
-                        <div class="img-box"><img src="" alt=""></div>
-                        <div class="txt-box">
-                            <p>10 Mistakes every first time traveller will make and how to avoid them!</p>
-                        </div>
-                    </div>
-                    <div class="latest-bloc">
-                        <div class="img-box"><img src="" alt=""></div>
-                        <div class="txt-box">
-                            <p>10 Mistakes every first time traveller will make and how to avoid them!</p>
-                        </div>
-                    </div>
-                    <div class="latest-bloc">
-                        <div class="img-box"><img src="" alt=""></div>
-                        <div class="txt-box">
-                            <p>10 Mistakes every first time traveller will make and how to avoid them!</p>
-                        </div>
-                    </div>
-                    <div class="latest-bloc">
-                        <div class="img-box"><img src="" alt=""></div>
-                        <div class="txt-box">
-                            <p>10 Mistakes every first time traveller will make and how to avoid them!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- travel -->
-        section class="p-bloc p-bloc--travel">
-            <div class="l-wrap-inner">
-                <div class="c-title">
-                    <h3>Discover the most engaging places</h3>
-                    <p>Lets's see the world with us with you and your family.</p>
-                </div>
-                <div class="travel-wrap">
-                    <div class="travel-bloc">
-                        <div class="travel-bloc__img-box"><img src="" alt=""></div>
-                        <div class="travel-bloc__txt-box">
-                            <div class="profile">
-                                <div class="profile-logo"><img src="" alt=""></div>
-                                <p>By Austin Martin</p>
-                            </div>
-                            <p>How to use less plastic when you travel.</p>
-                            <div class="date">
-                                <p>18 Apr 2022</p>
-                                <div class="path"><img src="" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="travel-bloc">
-                        <div class="travel-bloc__img-box"><img src="" alt=""></div>
-                        <div class="travel-bloc__txt-box">
-                            <div class="profile">
-                                <div class="profile-logo"><img src="" alt=""></div>
-                                <p>By Austin Martin</p>
-                            </div>
-                            <p>How to use less plastic when you travel.</p>
-                            <div class="date">
-                                <p>18 Apr 2022</p>
-                                <div class="path"><img src="" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="travel-bloc">
-                        <div class="travel-bloc__img-box"><img src="" alt=""></div>
-                        <div class="travel-bloc__txt-box">
-                            <div class="profile">
-                                <div class="profile-logo"><img src="" alt=""></div>
-                                <p>By Austin Martin</p>
-                            </div>
-                            <p>How to use less plastic when you travel.</p>
-                            <div class="date">
-                                <p>18 Apr 2022</p>
-                                <div class="path"><img src="" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="travel-bloc">
-                        <div class="travel-bloc__img-box"><img src="" alt=""></div>
-                        <div class="travel-bloc__txt-box">
-                            <div class="profile">
-                                <div class="profile-logo"><img src="" alt=""></div>
-                                <p>By Austin Martin</p>
-                            </div>
-                            <p>How to use less plastic when you travel.</p>
-                            <div class="date">
-                                <p>18 Apr 2022</p>
-                                <div class="path"><img src="" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="travel-bloc">
-                        <div class="travel-bloc__img-box"><img src="" alt=""></div>
-                        <div class="travel-bloc__txt-box">
-                            <div class="profile">
-                                <div class="profile-logo"><img src="" alt=""></div>
-                                <p>By Austin Martin</p>
-                            </div>
-                            <p>How to use less plastic when you travel.</p>
-                            <div class="date">
-                                <p>18 Apr 2022</p>
-                                <div class="path"><img src="" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="travel-bloc">
-                        <div class="travel-bloc__img-box"><img src="" alt=""></div>
-                        <div class="travel-bloc__txt-box">
-                            <div class="profile">
-                                <div class="profile-logo"><img src="" alt=""></div>
-                                <p>By Austin Martin</p>
-                            </div>
-                            <p>How to use less plastic when you travel.</p>
-                            <div class="date">
-                                <p>18 Apr 2022</p>
-                                <div class="path"><img src="" alt=""></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="c-btn c-btn--view"><a href="#" target="_self">View all journal</a></div>
-
-            </div>
-        </section> 
-
-        <!-- gallery -->
-         <section class="p-bloc p-bloc--gallery">
-            <div class=" l-wrap-inner l-wrap-inner--full">
-                <div class="galerry-logo">
-                    <img src="" alt="">
-                </div>
-                <div class="gallery-photo">
-                    <div class="c-title">
-                        <h3>Gallery Photos</h3>
-                        <p>Lets's see the world with us with you and your family.</p>
-                    </div>
-                    <div class="photo-wrap">
-                        <div class="photo-bloc">
-                            <div class="photo-bloc__img-box"><img src="" alt=""></div>
-                            <div class="photo-bloc__txt-box"></div>
-                        </div>
-                        <div class="photo-bloc">
-                            <div class="photo-bloc__img-box"><img src="" alt=""></div>
-                            <div class="photo-bloc__txt-box"></div>
-                        </div>
-                        <div class="photo-bloc">
-                            <div class="photo-bloc__img-box"><img src="" alt=""></div>
-                            <div class="photo-bloc__txt-box"></div>
-                        </div>
-                        <div class="photo-bloc">
-                            <div class="photo-bloc__img-box"><img src="" alt=""></div>
-                            <div class="photo-bloc__txt-box"></div>
-                        </div>
-                        <div class="photo-bloc">
-                            <div class="photo-bloc__img-box"><img src="" alt=""></div>
-                            <div class="photo-bloc__txt-box"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> 
-
-        <!-- Contact -->
-        <section class="p-bloc p-bloc--contact">
-            <div class="l-wrap-inner">
-                <div class="contact-wrap">
-                    <div class="contact-wrap__txt-box">
-                        <h4>Contact a Travel Researcher</h4>
-                        <p>We always aim to reply within 24 hours.</p>
-                    </div>
-                    <div class="contact-wrap__address">
-                        <div class="phone">
-                            <div class="phone__logo"><img src="" alt=""></div>
-                            <h4>Call Us</h4>
-                            <p>+91 956545463</p>
-                            <span>We are online now</span>
-                        </div>
-                        <div class="mail">
-                            <div class="mail__logo"><img src="" alt=""></div>
-                            <h4>Send us an Enquiry</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>  
-
-    </main>
-
-     <footer class="l-footer">
-        <div class="l-wrap-inner">
-            <div class="l-footer__bloc">
-                <h5>Raido.</h5>
-                <div class="footer-icon">
-                    <div class="icon-wrap">
-                        <div class="icon-img"><img src="" alt=""></div>
-                        <div class="icon-img"><img src="" alt=""></div>
-                        <div class="icon-img"><img src="" alt=""></div>
-                        <div class="icon-img"><img src="" alt=""></div>
-                    </div>
-                    <p>Cheap Romantic Vacations. Many people feel that there is a limited amount of abundance, wealth,
-                        or chances
-                        to succeed in life.</p>
-                    <nav class="l-footer__menu">
-                        <ul>
-                            <li><a href="#" target="_self"></a></li>
-                            <li><a href="#" target="_self"></a></li>
-                            <li><a href="#" target="_self"></a></li>
-                            <li><a href="#" target="_self"></a></li>
-                            <li><a href="#" target="_self"></a></li>
-                            <li><a href="#" target="_self"></a></li>
-                            <li><a href="#" target="_self"></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div> 
     </footer>
 </body>
 

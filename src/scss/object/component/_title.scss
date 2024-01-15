@@ -56,3 +56,17 @@
         }
     }
 }
+
+@media  screen and (max-width: 800px) {
+
+    .c-title{
+        h3{
+            font-size: 25px;
+            line-height: 35px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+}
