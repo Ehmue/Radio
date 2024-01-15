@@ -1,0 +1,54 @@
+.c-btn{
+    width: 197px;
+
+    a{
+        
+        background-color: $coloryellow;
+        color: $colorbl;
+        font-size: 16px;
+        padding: 16px 20px;
+        font-family: $font-muli;
+        font-weight: 600;
+        line-height: 26px;
+        position: relative;
+
+    }
+    a::after{
+        content: url('../img/compass.png');
+        position: absolute;
+        right: 15px;
+        margin-top: 2px;
+
+        
+    }
+
+    &--read{
+        
+        a::after{
+            content: url('../img/Page-2.png');
+            margin-top: 4px;
+
+        }
+    }
+    &--disc{
+        a{
+            background-color: transparent;
+            border: 2px solid $colorwhite;
+            color: $colorwhite;
+        }
+
+        a::after{
+            content: url('../img/Page-1.png');
+            margin-top: 4px;
+        }
+    }
+    &--view{
+        width: 236px;
+
+        a::after{
+            content: url('../img/Page-2.png');
+            margin-top: 4px;
+        }
+    }
+
+}
