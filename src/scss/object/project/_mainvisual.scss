@@ -1,8 +1,8 @@
 .mainvisual {
-
+    width: 100%;
     background-image: url('../img/bg1.png');
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
     height: 905px;
     display: flex;
     justify-content: flex-start;
