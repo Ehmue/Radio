@@ -46,6 +46,7 @@
     }
     &--view{
         width: 236px;
+        margin: 0 auto;
 
         a::after{
             content: url('../img/Page-2.png');
@@ -54,5 +55,3 @@
     }
 
 }
-
-
