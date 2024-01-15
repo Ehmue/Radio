@@ -1,0 +1,111 @@
+.mainvisual {
+
+    background-image: url('../img/bg1.png');
+    background-position: center;
+    background-size: cover;
+    height: 905px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__bloc {
+        width: 635px;
+        top: 30%;
+        display: block;
+
+        h2 {
+            font-size: 64px;
+            line-height: 74px;
+            font-weight: 700;
+            font-family: $font-pd;
+            color: $colorwhite;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: $font-muli;
+            font-size: 18px;
+            font-weight: 400;
+            color: $colorwhite;
+            margin-bottom: 60px;
+            padding-left: 80px;
+            position: relative;
+
+        }
+        p::before {
+            content: "";
+            width: 50px;
+            height: 2px;
+            display: block;
+            left: 4%;
+            top: 50%;
+            transform: translate(-50%, -4%);
+            position: absolute;
+            background-color: #f5f0f0;
+            z-index: 999;
+        }
+
+    }
+}
+@media screen and (max-width: 800px) {
+    .mainvisual{
+        &__bloc{
+            width: 540px;
+            
+            h2{
+                font-size: 42px;
+                line-height: 52px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 26px;
+            }
+            p::before{
+                left: 1%;
+                transform: translate(-1%);
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .mainvisual{
+        &__bloc{
+            width: 380px;
+            
+            
+            h2{
+                font-size: 32px;
+                line-height: 42px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 24px;
+            }
+            p::before{
+                left: 1%;
+                transform: translate(-1%);
+            }
+        }
+    }
+}
+@media screen and (max-width: 400px) {
+    .mainvisual{
+        &__bloc{
+            width: 320px;
+            
+            
+            // h2{
+            //     font-size: 22px;
+            //     line-height: 32px;
+            // }
+            // p{
+            //     font-size: 10px;
+            //     line-height: 20px;
+            // }
+            // p::before{
+            //     left: 1%;
+            //     transform: translate(-1%);
+            // }
+        }
+    }
+}
