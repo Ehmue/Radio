@@ -25,16 +25,18 @@
     &--read{
         
         a::after{
-            content: url('../img/Page-2.png');
+            content: url("../img/Page-2.png");
             margin-top: 4px;
 
         }
-    }
+     }
     &--disc{
         a{
             background-color: transparent;
             border: 2px solid $colorwhite;
             color: $colorwhite;
+
+            // display: block;
         }
 
         a::after{
@@ -52,3 +54,5 @@
     }
 
 }
+
+
