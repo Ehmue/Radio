@@ -1,0 +1,86 @@
+.p-bloc{
+
+    &--contact {
+        background-color: #0A0D13;
+        background: transparent linear-gradient(180deg, #0a0d13 0%, #0a0d1380 55%, #1f242e 100%) 0% 0%;
+        opacity: 1;
+
+
+        .contact-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            padding: 200px 0px;
+
+            &__txt-box {
+
+                h4 {
+                    width: 271px;
+
+                    font-size: 34px;
+                    color: $colorwhite;
+                    letter-spacing: 1.06px;
+                    font-family: $font-pd, 700;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    font-size: 18px;
+                    letter-spacing: 0.56px;
+                    font-family: $font-muli, 400;
+                    color: $colorwhite;
+                }
+            }
+
+            &__address {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                column-gap: 100px;
+                margin-left: 100px;
+
+                .circle {
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    text-align: center;
+                    border-radius: 50%;
+                    border: 1px solid;
+                    width: 230px;
+                    height: 230px;
+                    border-color: #FFFFFF;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    row-gap: 10px;
+
+                    &__logo {
+                        width: 25px;
+                        height: 25px;
+                        margin-bottom: 10px;
+                    }
+
+                    h4 {
+                        font-family: $font-pd, 700;
+                        font-size: 34px;
+                        color: $colorwhite;
+                        letter-spacing: 1.06px;
+                        text-align: center;
+                    }
+
+                    p {
+                        font-size: 24px;
+                        letter-spacing: 0.75px;
+                        color: $colorwhite;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        font-family: $font-muli, 400;
+                        color: $colorwhite;
+                    }
+                }
+            }
+        }
+    }
+}

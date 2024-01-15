@@ -14,11 +14,11 @@ $('.photo-wrap').slick({
     touchThreshold: 8,
     infinite: true,
     center: true,
-    // variableWidth: true,
+    //variableWidth: true,
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
     dots: false,
     centerMode: true,
-    centerPadding:'60px',
+    centerPadding:'30px',
   });
