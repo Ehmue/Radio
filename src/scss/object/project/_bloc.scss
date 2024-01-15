@@ -1,6 +1,4 @@
-// body {
-//     background-color: #0a0d13;
-// }
+
 
 .p-bloc {
 
@@ -19,7 +17,6 @@
             &__txt-box {
                 top: 20%;
                 left: 10%;
-                // transform: translate(-20%,-5%);
                 position: absolute;
                 display: flex;
                 justify-content: center;
@@ -77,6 +74,8 @@
                                     color: $colorwhite;
                                     font-size: 42px;
                                     line-height: 52px;
+
+                                    
                                 }
 
                                 span {
@@ -118,12 +117,12 @@
 
         .disc-wrap {
             display: flex;
-            justify-content: space-between;
-            // gap: 60px;
+            justify-content: center;
+            gap: 20px 20px;
 
 
             .disc-bloc {
-                width: 340px;
+                width: calc(100% / 3 - 20px);
                 
 
               
@@ -194,36 +193,7 @@
 
 
 
-        //             // justify-content: space-between;
-        //             .txt{
-        //                 width: 280px;
-        //                 position: absolute;
-        //                 bottom: o;
-        //                 display: block;
-        //                 height: 150px;
-        //                 h4 {
-        //                     color: $colorwhite;
-        //                     font-family: $font-pd;
-        //                     font-size: 34px;
-        //                     line-height: 44px;
-        //                     color: $coloryellow;
-        //                 }
-
-        //                 p {
-        //                     color: $colorwhite;
-        //                     font-family: $font-muli;
-        //                     font-size: 16px;
-        //                     line-height: 26px;
-        //                 }
-        //             }
-
-        //         }
-
-
-
-        //     }
-        // }
-   
+ 
 
     &--latest {
         //ei ei
