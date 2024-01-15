@@ -1,0 +1,46 @@
+.p-bloc{
+
+    &--latest {
+
+
+        .latest-wrap {
+            display: flex;
+            margin: 0 auto;
+            padding-bottom: 200px;
+            flex-wrap: wrap;
+
+            &__bloc {
+                position: relative;
+                .img-box {
+                    width: 360px;
+                    height: 363px;
+                    position: relative;
+                    // @media screen and (max-width: 600px) {
+                    //     width: 300px;
+                    // }
+                }
+
+                .txt-box {
+                    width: 280px;
+                    height: 75px;
+                    position: absolute;
+                    display: block;
+                    bottom: 23px;
+                    left: 30px;
+
+                    p {
+
+                        font-family: $font-muli, 400;
+                        color: $colorwhite;
+                        font-size: 18px;
+                        line-height: 28px;
+                        letter-spacing: 0.56px;
+                        @media screen and (max-width: 600px){
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }             
+    }
+}
