@@ -35,33 +35,4 @@
             }
         }             
     }
-    @media screen and (max-width: 1200px) {
-        .p-bloc{
-            &--latest{
-                .latest-wrap{
-                    &__bloc{
-                        .img-box{
-                            width: 240px;
-                        }
-                    }
-                }
-            }
-        }
-        
-    }
 }
-@media screen and (max-width: 800px) {
-    .p-bloc{
-        &--latest{
-            .latest-wrap{
-                &__bloc{
-                    .img-box{
-                        width: 240px; 
-                    }
-                }
-            }
-        }
-    }    
-}
-
-
